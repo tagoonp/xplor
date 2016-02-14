@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Xplor Sign In</title>
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="library/xplor/css/style.css" >
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  </head>
+  <body>
+    <div class="exp-container">
+      <div class="login2">
+        <div class="login-wrapper">
+          <div class="header-title">
+            <h1><font class="ccolor-1">X</font>plor
+              <br>
+              <small style="font-size: 0.5em;">
+                Factor visualization tools
+              </small></h1>
+          </div>
+        </div>
+        <form id="loginForm" class="text-left">
+          <div class="exp-alert exp-alert-danger" role="alert" id="loginAlert">
+            <strong>Warning.</strong> Please enter username and password
+          </div>
+          <div class="exp-form-control">
+            <label for=""><strong>Username</strong></label>
+            <input type="text" name="txtUsername" id="txtUsername" class="exp-form" placeholder="Username or E-mail" >
+          </div>
+          <div class="exp-form-control">
+            <label for=""><strong>Password</strong></label>
+            <input type="password" name="txtPassword" id="txtPassword" class="exp-form" placeholder="Password" >
+          </div>
+          <div class="exp-form-control">
+            <button type="submit" name="btnSignin" id="btnSignin" class="exp-btn exp-btn-primary exp-btn-block" >Sign In</button>
+          </div>
+          <div style="padding-top: 20px;" class="text-center">
+            <a href="#" class="a-link">Register</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" class="a-link">Guest</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" class="a-link">Forgot password?</a>
+          </div>
+        </form>
+      </div>
+      <div class="exp-footer" style="">
+        Copyright © 2015 - <font class="ccolor-1">Xplor</font> : Factor visulization tools | All Rights Reserved
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="library/jquery/jquery.js"></script>
+  <script type="text/javascript" src="library/xplor/js/login.js"></script>
+</html>
