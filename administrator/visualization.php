@@ -33,6 +33,18 @@ $resultEnabledvar = $db->select($strSQL,false,true);
     <link rel="stylesheet" href="../library/font-awesome/css/font-awesome.min.css">
     <link href="../library/seven7/stylesheets/style.css" media="all" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="../library/d3/d3.min.js"></script>
+    <style media="screen">
+    /*.main{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+    }*/
+    body{
+      overflow-y: hidden;
+    }
+    </style>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
   </head>
 
@@ -115,16 +127,8 @@ $resultEnabledvar = $db->select($strSQL,false,true);
           </ul>
 
           <div class="tab-content">
-            <div id="main" class="tab-pane fade in active">
-              <div style="padding: 10px 0px; background: #ccc; position: absolute;
-                height: 500px;
-                bottom:0px;
-                top: 50px;
-                left: 10px;
-                right: 10px;
-                background: #fff;
-                padding: 0px;" class="chartResult-panel">
-
+            <div id="" class="tab-pane fade in active">
+              <div class="main" style="width: 100%;">
               </div>
 
             </div>
